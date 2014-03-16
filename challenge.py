@@ -92,16 +92,14 @@ def count_configurations(a, b, c, n):
     # Write your code here
     # To print results to the standard output you can use print
     # Example: print "Hello world!"
-    lst = [a, b, c]
-    i = 0
-    combos = 0
-    while True:
-        curr = lst[i]
-
-        if curr < n: # If less than max
-
-        else: # Curr is equal or greater, we hit capacity
+    lst = [a, b, c]  # Each num will be it's own max
+    for max in lst:
+        max_c = 0
+        for user in lst:
 
 
 
-        i+=1 # Postfix
+count_configurations(2, 2, 2, 2)
+
+
+
